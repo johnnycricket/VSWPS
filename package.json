@@ -1,0 +1,28 @@
+{
+  "name": "vswps",
+  "version": "1.0.0",
+  "description": "A very simple wordpress theme starter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js; zip -r karatheme2017.zip ./dist; echo --- Build Complete! ---"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnycricket/VSWPS.git"
+  },
+  "keywords": [
+    "wordpress",
+    "starter",
+    "theme"
+  ],
+  "author": "John Vorwald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnnycricket/VSWPS/issues"
+  },
+  "homepage": "https://github.com/johnnycricket/VSWPS#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
