@@ -22,4 +22,5 @@ With that in mind: this is meant to be as bare bones as possible.
 1. Add theme specific images to the `src/images` folder
 2. Add theme specific php file to `src/php` folder.
 3. Add your sass files and folder structure to `src/scss`.
-4. When you are ready to package and test your theme run the npm command `npm run build` from the command line. The build will generate your sass, copy files into a dist folder and then package all of these into a zip that you can easily upload from your WordPress dashboard.
+4. In the scripts section of the package.json: change the filename for your theme's zip file.
+5. When you are ready to package and test your theme run the npm command `npm run build` from the command line. The build will generate your sass, copy files into a dist folder and then package all of these into a zip that you can easily upload from your WordPress dashboard.
